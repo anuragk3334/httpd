@@ -594,12 +594,12 @@ var RecipeService = /** @class */ (function () {
         this.slService = slService;
         this.recipesChanged = new rxjs_Subject__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
         this.recipes = [
-            new _recipe_model__WEBPACK_IMPORTED_MODULE_2__["Recipe"]('Tasty Schnitzel', 'A super-tasty Schnitzel - just awesome!', 'https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG', [
+            new _recipe_model__WEBPACK_IMPORTED_MODULE_2__["Recipe"]('Indian Momos', 'Tasty MomoHub (Lohegaon,Pune)  - just awesome!', 'https://upload.wikimedia.org/wikipedia/commons/b/be/Momos.jpg', [
                 new _shared_ingredient_model__WEBPACK_IMPORTED_MODULE_3__["Ingredient"]('Meat', 1),
-                new _shared_ingredient_model__WEBPACK_IMPORTED_MODULE_3__["Ingredient"]('French Fries', 20)
+                new _shared_ingredient_model__WEBPACK_IMPORTED_MODULE_3__["Ingredient"]('Corn Flour', 20)
             ]),
-            new _recipe_model__WEBPACK_IMPORTED_MODULE_2__["Recipe"]('Big Fat Burger', 'What else you need to say?', 'https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg', [
-                new _shared_ingredient_model__WEBPACK_IMPORTED_MODULE_3__["Ingredient"]('Buns', 2),
+            new _recipe_model__WEBPACK_IMPORTED_MODULE_2__["Recipe"]('Burger', 'Tasty BurgerHub (Lohegaon,Pune)  - just awesome!', 'https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg', [
+                new _shared_ingredient_model__WEBPACK_IMPORTED_MODULE_3__["Ingredient"]('Chicken', 2),
                 new _shared_ingredient_model__WEBPACK_IMPORTED_MODULE_3__["Ingredient"]('Meat', 1)
             ])
         ];
